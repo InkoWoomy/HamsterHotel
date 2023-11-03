@@ -1,0 +1,49 @@
+@font-face {
+    font-family: dosis;
+    src: url("DOSIS-REGULAR.OTF");
+}
+
+.topbar-color{
+    background-color: #000324;
+    
+}
+
+.dosis{
+    font-family: dosis;
+    color: #FFFFFF;
+}
+
+.topbar-setup{
+    grid-template-columns: 1fr 1fr 1fr 2fr 1fr 1fr 1fr;
+    
+}
+
+.bgCropped { 
+    width: auto; 
+    height: 600px; 
+    overflow: hidden;
+    
+} 
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 40%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: #000000; 
+  color: #fff; 
+  padding: 10px 20px; 
+  font-size: 20px; 
+  text-align: center;
+}
